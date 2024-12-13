@@ -7,9 +7,9 @@ using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour { 
 
-    public static GameController instance;
-public GameObject gameOverText;
-public bool gameOver = false;
+  public static GameController instance;
+  public GameObject gameOverText;
+  public bool gameOver = false;
 
     // Start is called before the first frame update
     void Awake ()
